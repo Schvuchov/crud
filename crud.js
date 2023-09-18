@@ -95,6 +95,7 @@ function editar(){
 
 
 function listar(){
+    listagem = ''
     for(i=0; i<nome.length; i++){
         listagem += `Produto${i} --> Nome: ${nome[i]}, Marca: ${marca[i]}, Valor: ${valor[i]} \n `
     }
